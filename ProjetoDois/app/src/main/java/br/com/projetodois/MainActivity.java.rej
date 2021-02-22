@@ -1,0 +1,10 @@
+diff a/ProjetoDois/app/src/main/java/br/com/projetodois/MainActivity.java b/ProjetoDois/app/src/main/java/br/com/projetodois/MainActivity.java	(rejected hunks)
+@@ -18,7 +18,7 @@
+             @Override
+             public void onClick(View v) {
+                 Intent intent = new Intent(getBaseContext(), TelaUmActivity.class);
+-                startActivity(intent);
++                //startActivity(intent);
+                 startActivity(intent);
+             }
+         });
