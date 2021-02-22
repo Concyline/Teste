@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), TelaUmActivity.class);
+                //Intent intent = new Intent(getBaseContext(), TelaUmActivity.class);
                 startActivity(intent);
             }
         });
