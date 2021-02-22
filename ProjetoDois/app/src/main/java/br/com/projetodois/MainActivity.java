@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getBaseContext(), TelaUmActivity.class);
                 //Intent intent = new Intent(getBaseContext(), TelaUmActivity.class);
                 startActivity(intent);
+                startActivity(intent);
             }
         });
 
